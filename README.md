@@ -1,10 +1,10 @@
 
 FOSUserBundle
 
-This is the boilerplate for https://github.com/sur3s/FOSUserBundle. The code has been configured and tested.
+This is the boilerplate for https://github.com/FriendsOfSymfony/FOSUserBundle. The code has been configured and tested.
 
 1. Clone the repo:
-    git clone https://github.com/FriendsOfSymfony/FOSUserBundle
+    git clone https://github.com/sur3s/FOSUserBundle
 
 2. Install composer following instructions from http://getcomposer.org/. Then run "php composer.phar install" to install them. (It will download all the vendor files so it might take a while to complete.)
 
