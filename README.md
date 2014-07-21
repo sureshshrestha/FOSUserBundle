@@ -1,7 +1,7 @@
 
 FOSUserBundle
 
-This is the boilerplate for https://github.com/FriendsOfSymfony/FOSUserBundle. The code has been configured and tested.
+This is the boilerplate for https://github.com/sur3s/FOSUserBundle. The code has been configured and tested.
 
 1. Clone the repo:
     git clone https://github.com/FriendsOfSymfony/FOSUserBundle
@@ -13,12 +13,18 @@ This is the boilerplate for https://github.com/FriendsOfSymfony/FOSUserBundle. T
 4. Make a copy of parameters.yml.dist and rename it to paramters.yml.
 
 5. Config the database parameter in app/config/parameters.yml as
+
     database_name: (db_name)
+    
     database_user: (db_username)
+    
     database_password: (db_password)
 
 6. Go to the url: http://localhost/project_name/web/app_dev.php/login/dashboard
+
   (change the above url as per need)
 
-To learn more about the sonataAdminBundle go through the online documentation of the bundle http://friendsofsymfony.github.io/.
+To learn more about the sonataAdminBundle go through the online documentation of the bundle 
+
+    http://friendsofsymfony.github.io/.
 
