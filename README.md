@@ -1,30 +1,35 @@
+This is a ready to use repository for **FOSUserBundle** configured in **Symfony2.5.1**. This is intended for the *Symfony developers* who want to run into the FOSUserBundle without any burden in configuring. If you are looking for installation of the bundle yourself go through the official documentation of [FOSUserBundle](https://github.com/FriendsOfSymfony/FOSUserBundle).
 
-FOSUserBundle
-
-This is the boilerplate for https://github.com/FriendsOfSymfony/FOSUserBundle. The code has been configured and tested.
 
 1. Clone the repo:
-    git clone https://github.com/sur3s/FOSUserBundle
 
-2. Install composer following instructions from http://getcomposer.org/. Then run "php composer.phar install" to install them. (It will download all the vendor files so it might take a while to complete.)
+    `git clone https://github.com/sur3s/FOSUserBundle`
 
-3. Go to the 'Setting up Permissions' section of the official symfony setup page i.e. http://symfony.com/doc/current/book/installation.html and choose the suitable method to change the permission of app/cache and app/logs.
+2. Install composer following instructions from [here](http://getcomposer.org/). Then run composer install:
 
-4. Make a copy of parameters.yml.dist and rename it to paramters.yml.
-
-5. Config the database parameter in app/config/parameters.yml as
-
-    database_name: (db_name)
+    'php composer.phar install'
     
-    database_user: (db_username)
+    (It will download all the vendor files so it might take a while to complete.)
+
+3. Go to the '*Setting up Permissions*' section of the [official symfony setup page](http://symfony.com/doc/current/book/installation.html).
+
+    Choose the suitable method to change the permission of *app/cache* and *app/logs*.
+
+4. Make a copy of *parameters.yml.dist* and rename it to *paramters.yml*.
+
+5. Config the database parameter in *app/config/parameters.yml* as
+
+    `database_name: (db_name)`
     
-    database_password: (db_password)
+    `database_user: (db_username)`
+    
+    `database_password: (db_password)`
 
-6. Go to the url: http://localhost/project_name/web/app_dev.php/login/dashboard
+6. Go to the url:
 
-  (change the above url as per need)
+    *http://localhost/project_name/web/app_dev.php/login/dashboard*
 
-To learn more about the sonataAdminBundle go through the online documentation of the bundle 
+    (change the above url as per need)
 
-    http://friendsofsymfony.github.io/.
+To learn more about the sonataAdminBundle go through the online documentation of the [FOSUserBundle](http://friendsofsymfony.github.io/).
 
