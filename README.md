@@ -1,4 +1,4 @@
-This is a ready to use repository for **FOSUserBundle** configured in **Symfony2.5.1**. This is intended for the *Symfony developers* who want to run into the FOSUserBundle without any burden in configuring. If you are looking for installation of the bundle yourself go through the official documentation of [FOSUserBundle](https://github.com/FriendsOfSymfony/FOSUserBundle).
+This is configured and tested boilerplate for **FOSUserBundle** configured in **Symfony2.5.1**. This is intended for the *Symfony developers* who want to run into the FOSUserBundle without any burden in configuring. If you are looking for installation of the bundle yourself go through the official documentation of [FOSUserBundle](https://github.com/FriendsOfSymfony/FOSUserBundle).
 
 
 1. Clone the repo:
